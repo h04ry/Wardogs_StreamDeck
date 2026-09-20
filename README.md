@@ -63,6 +63,9 @@ Platziere die drei Tasten nebeneinander, um einen reibungslosen Workflow zu gew�
    - **Untere Zeile:** Distanz in Metern (z. B. `434 m`)
 4. **04 Mörser ausrichten & Feuern:**  
    Mörser horizontal auf den Kompasskurs drehen, vertikalen Höhenrichtwert (Elevation) auf die berechnete Meter-Distanz einstellen und Feuer eröffnen.
+   
+**Demo Stream Deck
+![Stream Deck Tastenbelegung](docs/Demo_StreamDeck.png)
 
 ---
 
