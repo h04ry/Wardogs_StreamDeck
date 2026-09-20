@@ -42,6 +42,10 @@ Platziere die drei Tasten nebeneinander, um einen reibungslosen Workflow zu gew�
 | **EIGENE POSITION** | **FEIND / ZIEL** | **AUSRICHT-DATEN** |
 | Erfasst den Mörser-Standort direkt aus der Zwischenablage | Erfasst Zielkoordinaten direkt aus der Zwischenablage | Berechnet & visualisiert Azimut und Distanz in Echtzeit |
 
+## Demo Stream Deck
+
+![Stream Deck Tastenbelegung](docs/Demo_StreamDeck.png)
+
 ---
 
 ## ■ 3. TAKTISCHER ABLAUF IM GEFECHT (IN-GAME WORKFLOW)
@@ -64,9 +68,6 @@ Platziere die drei Tasten nebeneinander, um einen reibungslosen Workflow zu gew�
 4. **04 Mörser ausrichten & Feuern:**  
    Mörser horizontal auf den Kompasskurs drehen, vertikalen Höhenrichtwert (Elevation) auf die berechnete Meter-Distanz einstellen und Feuer eröffnen.
    
-##Demo Stream Deck
-
-![Stream Deck Tastenbelegung](docs/Demo_StreamDeck.png)
 
 ---
 
