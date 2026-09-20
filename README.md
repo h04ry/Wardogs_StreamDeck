@@ -11,7 +11,7 @@ Das **Wardogs Artillery Plugin** (`de.wardogs.artillery.sdPlugin`) ermöglicht d
 - **Betriebssystem:** Windows 11 (kompatibel mit Windows 10)
 - **Software:** Elgato Stream Deck Software ab Version 6.x
 - **Plugin-ID:** `de.wardogs.artillery.sdPlugin`
-- **Hersteller / Clan:** Wardogs Tactical Software
+- **Hersteller / Clan:** h04ry / S4CK
 
 ---
 
@@ -96,4 +96,4 @@ de.wardogs.artillery.sdPlugin/
 ```
 
 ---
-*WARDOGS TACTICAL SOFTWARE • ARTILLERY UNIT FIELD MANUAL V1.0 • SEITE 1 VON 1*
+*S4CK SOFTWARE • ARTILLERY UNIT FIELD MANUAL V1.0 • SEITE 1 VON 1*
