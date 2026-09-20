@@ -1,0 +1,83 @@
+{
+    "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+    "SDKVersion": 2,
+    "UUID": "de.wardogs.artillery",
+    "Name": "WarDogs Artillery Calculator",
+    "Version": "1.0.0",
+    "Author": "WarDogs",
+    "Description": "Position & Ziel per Zwischenablage erfassen, Azimut & Reichweite automatisch berechnen.",
+    "URL": "",
+    "CodePath": "bin/plugin.js",
+    "Icon": "imgs/plugin/marketplace",
+    "Category": "WarDogs",
+    "CategoryIcon": "imgs/plugin/category",
+    "Nodejs": {
+        "Version": "20"
+    },
+    "Software": {
+        "MinimumVersion": "6.5"
+    },
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        },
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.15"
+        }
+    ],
+    "Actions": [
+        {
+            "UUID": "de.wardogs.artillery.setposition",
+            "Name": "Set Current Position",
+            "Icon": "imgs/actions/setposition/icon",
+            "Tooltip": "Liest die Koordinaten aus der Zwischenablage und speichert sie als eigene Position.",
+            "PropertyInspectorPath": "pi/pi.html",
+            "Controllers": ["Keypad"],
+            "SupportedInMultiActions": false,
+            "States": [
+                {
+                    "Image": "imgs/actions/setposition/key",
+                    "TitleAlignment": "middle",
+                    "FontSize": "12",
+                    "Title": "Set\nPosition"
+                }
+            ]
+        },
+        {
+            "UUID": "de.wardogs.artillery.settarget",
+            "Name": "Set Target Position",
+            "Icon": "imgs/actions/settarget/icon",
+            "Tooltip": "Liest die Koordinaten aus der Zwischenablage und speichert sie als Zielposition.",
+            "PropertyInspectorPath": "pi/pi.html",
+            "Controllers": ["Keypad"],
+            "SupportedInMultiActions": false,
+            "States": [
+                {
+                    "Image": "imgs/actions/settarget/key",
+                    "TitleAlignment": "middle",
+                    "FontSize": "12",
+                    "Title": "Set\nTarget"
+                }
+            ]
+        },
+        {
+            "UUID": "de.wardogs.artillery.azimuthrange",
+            "Name": "Azimuth & Range",
+            "Icon": "imgs/actions/azimuth/icon",
+            "Tooltip": "Zeigt den berechneten Azimut (Grad/Mil) und die Reichweite an.",
+            "PropertyInspectorPath": "pi/pi.html",
+            "Controllers": ["Keypad"],
+            "SupportedInMultiActions": false,
+            "States": [
+                {
+                    "Image": "imgs/actions/azimuth/key",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16",
+                    "Title": "Azimuth\n&Range"
+                }
+            ]
+        }
+    ]
+}

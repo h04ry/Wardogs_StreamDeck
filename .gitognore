@@ -1,0 +1,12 @@
+# Stream Deck Release-Dateien & Logs
+*.streamDeckPlugin
+logs/
+*.log
+
+# Windows Systemdateien
+Thumbs.db
+Desktop.ini
+
+# IDEs & Editoren
+.vscode/
+.idea/
